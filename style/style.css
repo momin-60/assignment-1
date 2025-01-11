@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Fira Sans", serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Fira Sans", serif;
+}
+
+/* Common CSS */
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.text-mid{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.all-para{
+    font-size: 16px;
+    color: rgba(0, 0, 0.0,0.7);
+    line-height: 24px;
+}
+body{
+    background-color: #F1F1F3;
+}
+.btn button{
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.btn button:hover{
+    background-color: aqua;
+    color: rgb(75, 33, 33);
+}
+/* Common CSS */
+
+
+/* Navbar Start */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav h1{
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+nav button{
+    padding: 15px 30px;
+    color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #006A50;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+nav button:hover{
+    background-color: #006A50;
+    color: white;
+}
+/* Navbar End */
+
+/* Banner Start */
+.banner{
+    height: 560px;
+    border-radius: 24px;
+    background-color: #C6E4D6;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+
+}
+.banner p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0,0.5);
+}
+.banner h1{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-size: 56px;
+    font-weight: bold;
+    width: 600px;
+}
+.banner button{
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: 0;
+    transition: all 0.3s ease-in-out;
+}
+.banner button:hover{
+    color: red;
+    background-color: white;
+}
+/* Banner End */
+
+/* pillar start */
+.box{
+    margin-top: 24px;
+    width: 240px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 0, 0,.15);
+    margin-bottom: 80px;
+    padding: 24px;
+}
+.box h3{
+    padding-top: 24px;
+    padding-bottom: 12px;
+    color: rgba(0, 0, 0,0.8);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.box p {
+    width: 254px;
+    font-size: 16px;
+    color: rgba(0, 0, 0.0,0.7);
+}
+.pillar .all-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* pillar end */
+
+/* Future Start */
+.future{
+    display: flex;
+    justify-content: space-between;
+}
+.all-futures p{
+    padding: 24px 0;
+}
+.future .box{
+    width: 350px;
+    margin-bottom: 32px;
+
+}
+.future .box p{
+    width: 350px;
+    height: 70px;
+}
+
+.future .red{
+    background-color: rgba(255, 0, 0,0.3);
+}
+.future .green{
+    background-color: rgba(72, 255, 0, 0.3);
+}
+.future .yellow{
+    background-color: rgba(251, 255, 0, 0.336);
+}
+.btn .tomato{
+    background-color: tomato;
+}
+.btn .black{
+    background-color: rgba(0, 14, 207, 0.493);
+}
+.btn .white{
+    background-color: rgb(255, 0, 242);
+}
+
+/* Future End */
+
+
+/* Bonus Start */
+.bonus{
+    background-color: white;
+    padding: 48px 24px ;
+    border-radius: 16px;
+}
+.bonus h1{
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.bonus img{
+    position: absolute;
+    top: 23px;
+    left: 24px;
+    width: 7%;
+}
+.bonus {
+    position: relative;
+}
+/* Bonus End */
+
+
+
