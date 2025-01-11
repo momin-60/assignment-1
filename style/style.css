@@ -188,6 +188,8 @@ nav button:hover{
     background-color: white;
     padding: 48px 24px ;
     border-radius: 16px;
+    position: relative;
+    margin-bottom: 80px;
 }
 .bonus h1{
     padding-top: 12px;
@@ -199,10 +201,233 @@ nav button:hover{
     left: 24px;
     width: 7%;
 }
-.bonus {
-    position: relative;
-}
 /* Bonus End */
+
+/* Oppinion Start */
+.oppinion{
+    margin-bottom: 80px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    margin-top: 24px;
+}
+
+.oppinion td{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 36px 24px;
+    
+}
+.oppinion table{
+    border-collapse:collapse ;
+    width: 100%;
+}
+.first-tr span{
+    padding-left: 76%;
+}
+.oppinion .first-tr{
+    background-color: #C6E4D6;
+}
+.oppinion tr{
+    font-size: 16px;
+    font-weight:600;
+}
+.oppinion .first-tr td{
+    font-size: 20px;
+    font-weight:600;
+    padding: 24px;
+}
+.oppinion select{
+    background-color: #C6E4D6;
+    padding: 12px 0px;
+    padding-left: 14px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 50px;
+    transition: all .3s ease-in-out;
+}
+.oppinion option{
+    background-color: red;
+
+}
+
+.oppinion select:hover{
+    background-color: white;
+    color: black;
+}
+/* Oppinion End */
+
+/* News Start */
+.news{
+    margin-bottom: 80px;
+    padding: 48px;
+    background-color: white;
+}
+#management{
+    padding: 24px 0px 32px 0px;
+}
+.news-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+#right-text{
+    font-size: 32px;
+}
+.news-box .news-left img{
+    border-radius: 24px;
+}
+
+.news .news-right img{
+    width: 134px;
+    padding: 12px 0px;
+}
+.news .news-right p{
+    padding: 12px 0px 32px 0px;
+    width: 710px;
+}
+.time{
+    display: flex;
+    gap: 20px;
+}
+.time span, input{
+    background-color: #F1F1F3;
+    padding: 4px 5px;
+    border-radius: 8px;
+}
+.time input{
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.green-btn{
+    padding: 13px 26px;
+    background-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+.green-btn:hover{
+    background-color: #C6E4D6;
+    color: black;
+    cursor: pointer;
+}
+/* News End */
+
+/* Donate Start */
+.donate{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 464px;
+    margin-bottom: 80px;
+}
+.donate-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.the-box{
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.the-box:hover{
+    background-color: #C6E4D6;
+}
+
+.donate input{
+    width: 95%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: white;
+    border: none;
+    outline: 1px solid #C6E4D6;
+    font-size: 20px;
+}
+.donate input ::placeholder{
+    color: rgba(0, 0, 0, 0.15);
+    font-weight: 400;
+}
+.donate button{
+    padding: 17px 34px;
+}
+/* Donate End */
+
+/* Subscribe Start */
+
+.subscribe{
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 80px 265px;
+    align-items: center;
+    background-color:#C6E4D6;
+    text-align: center;
+    border-radius: 24px;
+}
+
+
+.mit-box{
+    width: 100%;
+    display: flex;
+}
+.mit-box input{
+    width: 75%;
+    outline: none;
+    border: none;
+    border-radius:8px 0px 0px 8px ;
+}
+.mit-box input::placeholder{
+    padding: 18px 40px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.30);
+}
+.mit-box button{
+    width:25%;
+    border-radius: 0px 8px 8px 0px;
+}
+.mit-box button:hover{
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+/* Subscribe End */
+
+/* Footer Start*/
+.footer{
+    background-color: white;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 32px;
+}
+.footer-mid{
+    width: 60%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.10);
+
+}
+.footer .icons{
+    display: flex;
+    gap: 23px;
+}
+/* Footer End*/
 
 
 
